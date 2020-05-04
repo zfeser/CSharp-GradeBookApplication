@@ -266,9 +266,5 @@ namespace GradeBook.GradeBooks
             
             return JsonConvert.DeserializeObject(json, gradebook);
         }
-        public Type(GradeBookType)
-        {
-
-        }
     }
 }
