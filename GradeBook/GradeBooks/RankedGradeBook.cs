@@ -8,5 +8,11 @@ namespace GradeBook.GradeBooks
         {
             Type = GradeBookType.Ranked;
         }
-}
+    }
+    public void GetLetterGrade(double averageGrade)
+    {
+       if (double.IsNullOrEmpty(student.Name))
+                throw new ArgumentException("A Name is required to add a student to a gradebook.");
+    Students.Add(student);
+    }
 }
